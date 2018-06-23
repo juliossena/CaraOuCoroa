@@ -35,7 +35,6 @@ public class SegundaActivity extends Activity {
 
         if (b != null) {
             int valor = (int) b.get("sorteio");
-            Log.d("aqui", valor + "");
             if (valor == 1)
                 imagemResultado.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.moeda_cara));
             else {
